@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boardgame name="WeissShcwarz" alias="ws">
+	<box></box>
+	<playarea>
+		<area name="hand" bounds="0,600,1100,182" initialDirection="UP" initialSide="FACE"><layout class="MultiFlat" flatDirection="LEFT_TO_RIGHT" gapPercentage="102" margin="9,20,9,10" baseEdge="HEIGHT"></layout></area>
+		<area name="waitingRoom" bounds="943,342,130,182"
+			initialDirection="UP" initialSide="FACE">
+			<layout class="MultiPile" base="BOTH" maxCardNo="50" horizontalGapPercentage="10" verticalGapPercentage="10"></layout>
+		</area>
+		<area name="clock" bounds="424,404,340,182" initialDirection="UP"
+			initialSide="FACE">
+			<layout class="MultiFlat" flatDirection="LEFT_TO_RIGHT"
+				baseEdge="HEIGHT" gapPercentage="35">
+			</layout>
+		</area>
+		<area name="stock" bounds="32,222,182,364"
+			initialDirection="RIGHT" initialSide="DOWN">
+			<layout class="MultiFlat" flatDirection="UP_TO_DOWN"
+				baseEdge="HEIGHT" gapPercentage="25">
+			</layout>
+		</area>
+		<area name="climax" bounds="232,170,182,182"
+			initialDirection="LEFT" initialSide="FACE">
+			<layout class="SingleTappable" position="SOUTH"></layout>
+		</area>
+		<area name="memory" bounds="891,14,182,130"
+			initialDirection="RIGHT" initialSide="FACE">
+			<layout class="MultiFlat" flatDirection="UP_TO_DOWN"
+				baseEdge="HEIGHT" gapPercentage="0">
+			</layout>
+		</area>
+		<area name="level" bounds="232,362,182,224"
+			initialDirection="RIGHT" initialSide="FACE">
+			<layout class="MultiFlat" flatDirection="DOWN_TO_UP"
+				baseEdge="HEIGHT" gapPercentage="25">
+			</layout>
+		</area>
+		<area name="frontLeft" bounds="321,14,182,182"
+			initialDirection="UP" initialSide="FACE">
+			<layout class="SingleTappable" position="EAST"></layout>
+		</area>
+		<area name="frontCenter" bounds="503,14,182,182"
+			initialDirection="UP" initialSide="FACE">
+			<layout class="SingleTappable" position="CENTER"></layout>
+		</area>
+		<area name="frontRight" bounds="685,14,182,182"
+			initialDirection="UP" initialSide="FACE">
+			<layout class="SingleTappable" position="WEST"></layout>
+		</area>
+		<area name="backLeft" bounds="414,224,182,182"
+			initialDirection="UP" initialSide="FACE">
+			<layout class="SingleTappable" position="CENTER"></layout>
+		</area>
+		<area name="backRight" bounds="594,224,182,182"
+			initialDirection="UP" initialSide="FACE">
+			<layout class="SingleTappable" position="CENTER"></layout>
+		</area>
+		<area name="deck" bounds="930,134,143,200" initialDirection="UP"
+			initialSide="DOWN">
+			<layout class="MultiPile" base="BOTH" maxCardNo="50"
+				horizontalGapPercentage="10" verticalGapPercentage="10">
+			</layout>
+		</area></playarea></boardgame>
